@@ -1,0 +1,11 @@
+[package]
+name = "boof"
+version = "0.1.0"
+authors = ["McKayla Washburn <mckayla@hey.com>"]
+description = "A strict superset of Brainfuck"
+keywords = ["brainfuck", "bf"]
+license = "MIT"
+homepage = "https://github.com/aslilac/boof"
+repository = "https://github.com/aslilac/boof"
+documentation = "https://docs.rs/crate/boof"
+edition = "2021"
