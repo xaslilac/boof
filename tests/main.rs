@@ -5,7 +5,7 @@ mod setup;
 const EXE: &str = "./build/release/boof";
 
 #[test]
-fn example_echo() {
+fn example_hello() {
 	setup::before();
 
 	let result = Command::new(EXE)
@@ -18,7 +18,7 @@ fn example_echo() {
 }
 
 #[test]
-fn example_hello() {
+fn example_echo() {
 	setup::before();
 
 	let result = Command::new(EXE).arg("./examples/echo.b").output().unwrap();
