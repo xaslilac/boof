@@ -123,6 +123,7 @@ impl Boof {
 				}
 			}
 			get => {
+				self.out.flush().expect("failed to write to stdout");
 				self.tape[self.d] = io::stdin()
 					.bytes()
 					.next()
